@@ -31,17 +31,9 @@ A aplicação preenche as lacunas de conhecimento do usuário através de simula
 
 ---
 
-## 📸 Screenshots
+## 📸 Banner utilizado
 
-*(Espaço reservado para as imagens do seu banner. Recomendo subir as imagens na pasta do projeto e linkar aqui)*
-
-### Tela Inicial
-![Tela Inicial](./caminho-para-imagem-tela-inicial.png)
-*Página de login e registro com a apresentação do projeto.*
-
-### Gráfico de Simulação
-![Gráfico de Simulação](./caminho-para-imagem-grafico.png)
-*Exemplo de gráfico comparativo de parcelas e juros totais entre diferentes bancos.*
+Link para o Banner da defesa: https://docs.google.com/presentation/d/1cZvYHH7pig_FvFz9c39KByso5eFyWvV6/edit?usp=sharing&ouid=117130273387308162693&rtpof=true&sd=true
 
 ---
 
