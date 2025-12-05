@@ -91,6 +91,7 @@ class SimulacaoController extends Controller
     public function update(Request $request, $id) {
 
         $simulacao = Simulacao::findOrFail($id);
+        $simulacao->titulo = $request->titulo;
         $simulacao->valor = $request->valor;
         $simulacao->taxa = $request->taxa;
         $simulacao->tempo = $request->tempo;
