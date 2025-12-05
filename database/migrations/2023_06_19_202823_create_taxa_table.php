@@ -13,10 +13,13 @@ return new class extends Migration
     {
         Schema::create('taxa', function (Blueprint $table) {
             $table->id();
-            $table->string('banco');
-            $table->string('tipo_taxa');
+            $table->foreignId('tipo_taxa_id');
+            $table->foreignId('banco_id');
             $table->decimal('valor', 5, 2);
             $table->timestamps();
+
+            $table->foreign('tipo_taxa_id')->references('id')->on('tipo_taxa');
+            $table->foreign('banco_id')->references('id')->on('banco');
         });
     }
 
